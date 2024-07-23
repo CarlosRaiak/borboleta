@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    width: 100%;
+    height: 1000px;
+    margin: 100 auto;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(10, 8, 8);
+}
+.borboleta{
+    position: absolute;
+    bottom: 400px;
+    width: 400px;
+    animation:pipe-animation 5s infinite linear ;
+}
+@keyframes pipe-animation{
+from{
+    right: -180px;;
+}
+to{
+    right: 100%;
+}
+
+}
